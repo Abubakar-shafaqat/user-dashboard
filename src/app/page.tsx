@@ -47,7 +47,7 @@ const AddProductForm = () => {
     }
   }, [userId, router]);
 
-  const [cars, setCars] = useState<Car[]>([]); // Store cars in an array
+  const [, setCars] = useState<Car[]>([]); // Store cars in an array
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
